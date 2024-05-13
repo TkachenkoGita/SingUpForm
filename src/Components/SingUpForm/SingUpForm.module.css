@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: whitesmoke;
+
+  
+}
+.numberForm {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  
+
+}
+
+
+.userForm {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  gap: 5px;
+  padding: 35px;
+  width: 400px;
+  box-shadow:  0px 5px 10px 0px rgba(0,0,0,.7)
+}
+
+.userImg {
+  display: flex;
+  margin-left: 25%;
+  font-size: 100px;
+  color: whitesmoke;
+ 
+}
+
+.nameOfForm{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 100;
+   color: rgb(99, 98, 98);
+}
+.userImgContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: green;
+   border-radius: 50%;
+   width: 130px;
+   height: 130px;
+   margin-left: 25%;
+}
+.formLabel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  color: rgb(99, 98, 98);
+  font-size: medium;
+  padding-bottom: 5px
+  ;
+}
+.formSpan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size:x-small;
+  color: green;
+}
+input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40px;
+  border: 1px solid rgb(99, 98, 98);
+
+
+}
+
+
+.passwordIcon{
+   display: flex;
+   padding-left: 90%;
+   padding-bottom: auto;
+   margin-bottom: 5%;
+   font-size:xx-large;
+   color: green;
+
+}
+.agreeForm{
+   display: flex;
+   align-items: center;
+}
+.formButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: whitesmoke;
+  background-color: green;
+  
+}
+.member{
+   font-size: medium;
+   font-weight: 200;
+   color: rgb(65, 64, 64);
+}
+a{
+   text-decoration: none;
+   color: green;
+}
